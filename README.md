@@ -1,10 +1,20 @@
-# Guia de estilos
+# Nome do meu projeto
 
-Toda a estilização que será usada no projeto dentro do figma.
+Rápida descrição do objetivo de fazer esse projeto
 
-[Link do projeto no figma](https://www.figma.com/file/ibWktwVpnog76rMYOdVhks/Dispondo-elementos-com-flexbox-e-grid?node-id=54%3A2358)
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **SkateApp with Flexbox-Grid**
+| :label: Tecnologias | java, html, ruby, c# (tecnologias utilizadas)
+| :rocket: URL         | https://url-deploy.com.br
+| :fire: Desafio     | https://url-do-desafio.com.br
 
-## Fonte
+<!-- Inserir imagem com a #vitrinedev ao final do link -->
+![](https://via.placeholder.com/1200x500.png?text=imagem+lindona+do+meu+projeto#vitrinedev)
+
+## Detalhes do projeto
+
+Textos e imagens que descrevam seu projeto, suas conquistas, seus desafios, próximos passos, etc...
 
 ```html
 Open Sans:
