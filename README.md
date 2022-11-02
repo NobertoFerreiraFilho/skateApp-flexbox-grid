@@ -8,9 +8,12 @@ Toda a estilização que será usada no projeto dentro do figma.
 
 ```html
 Open Sans:
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap">
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+/>
 ```
 
 ## Cores
@@ -41,8 +44,8 @@ Estão dentro do arquivo de fonte `icones.ttf`. Para usar, primeiro importe a fo
 
 ```css
 @font-face {
-    font-family: 'icones';
-    src: url(../font/icones.ttf);
+  font-family: "icones";
+  src: url(../font/icones.ttf);
 }
 ```
 
