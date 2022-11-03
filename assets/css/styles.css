@@ -135,6 +135,13 @@ body {
   left: 1.5rem;
 }
 
+@media screen and (min-width: 1440px){
+    .menu-lateral{
+        position: static;
+        width: 200px;
+    }
+
+}
 .menu-lateral__link--inicio::before {
   content: "\e902";
 }
@@ -164,7 +171,6 @@ body {
     padding: 1.5rem 1rem;
     display: grid;
     gap: 1rem;
-
 }
 
 .titulo-pagina {
@@ -175,6 +181,16 @@ body {
 .titulo-secao{
     font-size: 1.2rem;
     font-weight: 700;
+}
+
+@media screen and (min-width: 1440px) {
+    .principal{
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        column-gap: 2rem;
+        padding: 1rem 4rem;
+    }
+    
 }
 
 .cartao{
@@ -253,6 +269,60 @@ body {
     margin-right: 8px;
 }
 
+.cartao--recentes{
+    display: none;
+}
+
+@media screen and (min-width: 1440px) {
+    .cartao--recentes{
+        display:grid;
+        grid-template-columns: repeat(2, auto);
+        align-items: center;
+        row-gap: 1.5rem;
+        width: 256px;
+        padding: 1rem;
+        box-sizing: border-box;
+    }
+
+    .cartao--recentes .cartao__titulo{
+        grid-column: auto;
+    }
+
+    .cartao_link{
+        font-size: 0.8rem;
+        font-weight: bold;
+        color: #0480dc;
+        justify-self: flex-end;
+    }
+    
+    .cartao__lista{
+        display: grid;
+        row-gap: 1rem;
+        grid-column: span 2;
+    }
+
+    .cartao__item{
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 0.5rem;
+    }
+
+    .cartao__item-thumbnail{
+        width: 2rem;
+        grid-row: span 2;
+    }
+
+    .cartao__item-titulo{
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+        font-weight: 700;
+    }
+
+    .cartao__item-perfil{
+        font-size: 0.8rem;
+        color: #95999c
+    }
+}
 /*Seção*/
 
 .secao{
