@@ -248,6 +248,16 @@ body {
     grid-column: span 2;
 }
 
+@media screen and (min-width: 1024px) and (max-width:1439px) {
+  .cartao__titulo{
+    font-size: 1rem;
+  }
+
+  .cartao__perfil{
+    font-size: 0.7rem;
+  }
+  
+}
 .cartao__info{
     display: flex;
     align-items: center;
@@ -286,6 +296,11 @@ body {
 .cartao__botao--play::before{
     content:"\e90b";
     font-size: 1.5rem;
+}
+
+.cartao__botao--local::before{
+  content:"\e908";
+  font-size: 1.5rem;
 }
 
 .cartao__botao--destaque{
