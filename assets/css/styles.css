@@ -116,6 +116,11 @@ body {
     font-weight: 700;
 }
 
+.titulo-secao{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
 .cartao{
     width: 100%;
     border-radius: 1rem;
@@ -175,6 +180,7 @@ body {
     height: 40px;
     border-radius: 10px;
     font-size: 0.9rem;
+    justify-self: flex-end;
 }
 
 .cartao__botao--play::before{
@@ -189,4 +195,11 @@ body {
 
 .cartao__botao--destaque::before {
     margin-right: 8px;
+}
+
+/*Seção*/
+
+.secao{
+    display: grid;
+    gap: 1rem;
 }
