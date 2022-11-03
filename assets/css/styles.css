@@ -9,7 +9,7 @@ body {
   color: #fff;
 }
 
-@media screen and(min-width: 1440px) {
+@media screen and (min-width: 1440px) {
     body{
         display: grid;
         grid-template-columns: auto 1fr ;
@@ -50,7 +50,9 @@ body {
         column-gap: 2rem;
         grid-template-columns: 1fr auto;
         padding: 1rem 4rem;
+        height: 80px;
         box-sizing: border-box;
+        grid-column: 2;
     }
 
     .cabecalho__menu{
@@ -99,11 +101,12 @@ body {
 
   position: absolute;
   left: -100vw;
+  transition: .25s;
 }
 
 .menu-lateral--ativo {
   left: 0;
-  transition: 0.2s all;
+  transition: .25s;
 }
 
 .menu-lateral__logo {
@@ -135,13 +138,6 @@ body {
   left: 1.5rem;
 }
 
-@media screen and (min-width: 1440px){
-    .menu-lateral{
-        position: static;
-        width: 200px;
-    }
-
-}
 .menu-lateral__link--inicio::before {
   content: "\e902";
 }
@@ -165,6 +161,15 @@ body {
   content: "\e90a";
 }
 
+@media screen and (min-width: 1440px) {
+  .menu-lateral{
+    position: static;
+    width: 200px;
+    grid-column: 1;
+    grid-row: 1 / span 2;
+  }
+}
+
 /*Card principal*/
 
 .principal{
@@ -176,6 +181,7 @@ body {
 .titulo-pagina {
     font-size: 1.5rem;
     font-weight: 700;
+    grid-area: titulo-pagina;
 }
 
 .titulo-secao{
@@ -187,8 +193,16 @@ body {
     .principal{
         display: grid;
         grid-template-columns: auto 1fr auto;
+        grid-template-areas:
+          "titulo-pagina titulo-pagina titulo-pagina"
+          "destaque-video destaque-video videos-recentes"
+          "secao-videos secao-videos secao-videos"
+          "produtos-recentes destaque-produtos destaque-produtos"
+          "secao-produtos secao-produtos secao-produtos"
+          ;
         column-gap: 2rem;
         padding: 1rem 4rem;
+        grid-column: 2;
     }
     
 }
@@ -328,4 +342,31 @@ body {
 .secao{
     display: grid;
     gap: 1rem;
+}
+
+/*Classes únicas*/
+
+
+.destaque-video{
+  grid-area: destaque-video;
+} 
+
+.videos-recentes{
+  grid-area: videos-recentes;
+}
+
+.secao-videos{
+  grid-area: secao-videos;
+}
+
+.destaque-produtos{
+  grid-area: destaque-produtos;
+}
+
+.produtos-recentes{
+  grid-area: produtos-recentes;
+}
+
+.secao-produtos{
+  grid-area: secao-produtos;
 }
