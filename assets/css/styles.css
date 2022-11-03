@@ -9,6 +9,13 @@ body {
   color: #fff;
 }
 
+@media screen and(min-width: 1440px) {
+    body{
+        display: grid;
+        grid-template-columns: auto 1fr ;
+    }
+    
+}
 .cabecalho {
   display: flex;
   justify-content: space-between;
@@ -32,6 +39,55 @@ body {
   width: 40px;
 }
 
+.cabecalho__perfil{
+    display: none;
+}
+
+@media screen and (min-width: 1440px) {
+    .cabecalho{
+        background-color: #10232a;
+        display: grid;
+        column-gap: 2rem;
+        grid-template-columns: 1fr auto;
+        padding: 1rem 4rem;
+        box-sizing: border-box;
+    }
+
+    .cabecalho__menu{
+        display: none;
+    }
+
+    .cabecalho__logo{
+        display: none;
+    }
+
+    .cabecalho__perfil{
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        column-gap: 0.5rem;
+        align-items: center;
+        justify-content: flex-end;
+        color: #95999c;
+        padding: 0.5rem 2rem;
+        border-right: 1px solid #95999c;
+    }
+
+    .cabecalho__perfil::before{
+        content: '';
+        display: block;
+        width: 2rem;
+        height: 2rem;
+        background-image: url(/assets/img/profile_2.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .cabecalho__perfil::after{
+        content: '\e90d';
+        color: #fff;
+        font-size: 1.5rem;
+    }
+}
 /*Manu lateral*/
 
 .menu-lateral {
