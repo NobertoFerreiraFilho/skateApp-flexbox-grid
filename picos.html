@@ -36,13 +36,13 @@
       />
       <a
         href="index.html"
-        class="menu-lateral__link menu-lateral__link--inicio menu-lateral__link--ativo"
+        class="menu-lateral__link menu-lateral__link--inicio "
         >Início</a
       >
       <a href="#" class="menu-lateral__link menu-lateral__link--videos"
         >Vídeos</a
       >
-      <a href="#" class="menu-lateral__link menu-lateral__link--picos">Picos</a>
+      <a href="#" class="menu-lateral__link menu-lateral__link--picos menu-lateral__link--ativo">Picos</a>
       <a href="#" class="menu-lateral__link menu-lateral__link--integrantes"
         >Integrantes</a
       >
@@ -53,17 +53,55 @@
         >Pinturas</a
       >
     </nav>
-    <main class="principal">
+    <main class="principal principal--picos">
       <h2 class="titulo-pagina">Picos</h2>
-      <article class="cartao cartao--destaque destaque-video">
-        <img
-          src="/assets/img/mapa-picos.png"
-          alt="Mapa de picos"
-          class="cartao__imagem"
-        />
+      <article class="cartao picos-mapa" aria-label="Mapa dos picos favoritos"></article>
+      <article class="cartao cartao--recentes picos-favoritos">
+        <h3 class="cartao__titulo">Top Picos</h3>
+        <a href="#" class="cartao__link">Ver Todos</a>
+        <ul class="cartao__lista">
+          <li class="cartao__item">
+            <img
+              src="/assets/img/miniatura_1.png"
+              alt="Thumbnail"
+              class="cartao__item-thumbnail"
+            />
+            <h4 class="cartao__item-titulo">HZC - Burnside, USA</h4>
+            <p class="cartao__item-perfil">Noberto Filho</p>
+          </li>
+          <li class="cartao__item">
+            <img
+              src="/assets/img/miniatura_2.png"
+              alt="Thumbnail"
+              class="cartao__item-thumbnail"
+            />
+            <h4 class="cartao__item-titulo">HZC - Southbank</h4>
+            <p class="cartao__item-perfil">Noberto Filho</p>
+          </li>
+          <li class="cartao__item">
+            <img
+              src="/assets/img/miniatura_3.png"
+              alt="Thumbnail"
+              class="cartao__item-thumbnail"
+            />
+            <h4 class="cartao__item-titulo">HZC - Big O, Montreal</h4>
+            <p class="cartao__item-perfil">Noberto Filho</p>
+          </li>
+          <li class="cartao__item">
+            <img
+              src="/assets/img/miniatura_4.png"
+              alt="Thumbnail"
+              class="cartao__item-thumbnail"
+            />
+            <h4 class="cartao__item-titulo">
+                HZC -Red Ribbon
+            </h4>
+            <p class="cartao__item-perfil">Noberto Filho</p>
+          </li>
+        </ul>
       </article>
-      <section class="secao secao-videos">
-        <h3 class="titulo-secao">Picos mais vistos</h3>
+      <section class="secao secao-picos-mais-visitados">
+        <h3 class="titulo-secao">Picos mais visitados</h3>
         <article class="cartao">
           <img
             src="/assets/img/pico1.jpg"
