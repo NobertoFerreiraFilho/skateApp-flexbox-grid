@@ -1,5 +1,7 @@
 # HZC | App using Flexbox/Grid Mobile and Desktop version 
 
+
+
 Project developed in order to Learn and practice Flexbox and Grid Layout choosing which one is best for each scenerio.
 
 | :placard: Vitrine.Dev |     |
@@ -7,108 +9,58 @@ Project developed in order to Learn and practice Flexbox and Grid Layout choosin
 | :sparkles: Nome        | **SkateApp with Flexbox-Grid**
 | :label: Tecnologias | HTML, CSS, Javascript, Flexbox, Grid
 
-<!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://via.placeholder.com/1200x500.png?text=imagem+lindona+do+meu+projeto#vitrinedev)
+<p align='center'>
+<img src='https://img.shields.io/github/last-commit/NobertoFerreiraFilho/skateApp-flexbox-grid?style=plastic'>
+<img src='https://img.shields.io/static/v1?label=Status&message=OnGoing&color=yellow'>
+<img src='https://img.shields.io/github/stars/NobertoFerreiraFilho/skateApp-flexbox-grid'>
+<img src='https://img.shields.io/github/forks/NobertoFerreiraFilho/skateApp-flexbox-grid'>
+<img src='https://img.shields.io/github/issues/NobertoFerreiraFilho/skateApp-flexbox-grid'>
+</p>
 
+<!-- Inserir imagem com a #vitrinedev ao final do link -->
+<img src='https://github.com/NobertoFerreiraFilho/skateApp-flexbox-grid/blob/master/assets/img/home-page.jpg#vitrinedev' width=300/> <img src='https://github.com/NobertoFerreiraFilho/skateApp-flexbox-grid/blob/master/assets/img/Picos-page.jpg' width=315/>
 ## Detalhes do projeto
 
-Textos e imagens que descrevam seu projeto, suas conquistas, seus desafios, próximos passos, etc...
+![](https://github.com/NobertoFerreiraFilho/skateApp-flexbox-grid/blob/master/assets/img/HZC-SkateApp_1__AdobeExpress.gif)
 
-```html
-Open Sans:
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link
-  rel="stylesheet"
-  href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
-/>
-```
+Doing this project allowed me to practice and understand even more how Flexbox and Grid works and specially in which case is best to use each of them.
+<ul>
+  <li>Flexbox</li>
+  <li>Grid including Grid-template-area</li>
+  <li>Practice "Mobile first" mindset</li>
+  <li>Media Query for responsivity</li>
+  <li>First concepts of Acessibility, for example: aria-label to describe logos
+  <li>First contact with BEM standards for naming classes</li>
+  <li>Practice how to work and transform FIGMA referencies into real project by destructuring It into small parts and choosing which strategy suits better, flexbox or Grid.</li>
+</ul>
 
-## Cores
+ ### Extra features implemented beyond the Alura course scope for this activity
+ <ul>
+  <li>Small toggle menu by clicking Profile name on the top of the page. </li>
+  </ul>
+ 
+## Technics, Technologies and Dependences used:
 
-corpo: `#1D232A`
+<ul style='display:flex; flex-wrap: wrap; justify-content:center;'>
+<il>
+<img src='https://img.shields.io/badge/CSS3-black?logo=CSS3'/>
+</il>
+<il>
+<img src='https://img.shields.io/badge/HTML5-black?logo=HTML5'/>
+</il>
+<il>
+<img src='https://img.shields.io/badge/Git-black?logo=git'/>
+</il>
+<il>
+<img src='https://img.shields.io/badge/VSCode-black?logo=visual-studio-code'/>
+</il>
+</ul>
 
-cabeçalho: `#1D232A`
-
-cabeçalho mobile: `#15191C`
-
-menu lateral: `#15191C`
-
-cartão: `#2C343A`
-
-fonte: `#FFFFFF`
-
-fonte alternativa: `#95999C`
-
-links: `#0480DC`
-
-botão: `#0480DC`
-
-sombras: `0px 4px 4px rgba(0, 0, 0, 0.16)`
-
-## Ícones
-
-Estão dentro do arquivo de fonte `icones.ttf`. Para usar, primeiro importe a fonte no projeto usando `@font-face` e depois utilize os códigos abaixo para exibir o ícone.
-
-```css
-@font-face {
-  font-family: "icones";
-  src: url(../font/icones.ttf);
-}
-```
-
-> Cuidado com a localização do arquivo `icones.ttf`
-
-Camisas = `\e900`
-
-Carrinho = `\e901`
-
-Inicio = `\e902`
-
-Integrantes = `\e903`
-
-Menu = `\e904`
-
-Moeda = `\e905`
-
-Notificação = `\e906`
-
-Pico = `\e908`
-
-Picos = `\e909`
-
-Pinturas = `\e90a`
-
-Play = `\e90b`
-
-Relogio = `\e90c`
-
-Seta-baixo = `\e90d`
-
-Videos = `\e90e`
-
-Visualizacao = `\e90f`
-
-## Espaçamentos
-
-Espaço interno botão: `8px`
-
-Espaço entre elementos do botão: `8px`
-
-Espaço entre elementos: `16px/8px`
-
-Espaçamento interno do corpo: `16px`
-
-Espaçamento entre o título do cartão de recentes e seus itens: `24px`
-
-## Tamanhos
-
-Tamanho do dispositivo mobile: `360px`
-
-Tamanho do dispositivo desktop: `1440px`
-
-Largura máxima do conteúdo principal: `1120px`
-
-Largura máxima de um cartão desktop: `256px`
-
-Altura mínima de um cartão: `320px`
+<ul style='display:flex; flex-wrap: wrap; justify-content:center;'>
+<il>
+<img src='https://img.shields.io/badge/CI%20CD-black?logo=CI-CD'/>
+</il>
+<il>
+<img src='https://img.shields.io/badge/GRID-black?logo=Flex-box'/>
+</il>
+</ul>
