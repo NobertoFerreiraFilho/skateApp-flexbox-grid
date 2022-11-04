@@ -1,8 +1,7 @@
-# HZC | App using Flexbox/Grid Mobile and Desktop version 
+# HZC | App using Flexbox/Grid for Mobile and Desktop
 
 
-
-Project developed in order to Learn and practice Flexbox and Grid Layout choosing which one is best for each scenerio.
+Project developed as part of the Alura course "CSS: dispondo elementos com Flexbox e Grid" in order to Learn and practice Flexbox and Grid Layout choosing which one is best for each scenario.
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
