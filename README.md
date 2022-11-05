@@ -17,7 +17,7 @@ Project developed as part of the Alura course "CSS: dispondo elementos com Flexb
 </p>
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-<img src='https://github.com/NobertoFerreiraFilho/skateApp-flexbox-grid/blob/master/assets/img/home-page.jpg#vitrinedev' width=300/> <img src='https://github.com/NobertoFerreiraFilho/skateApp-flexbox-grid/blob/master/assets/img/Picos-page.jpg' width=315/>
+<img src='https://github.com/NobertoFerreiraFilho/skateApp-flexbox-grid/blob/master/assets/img/home-page.jpg#vitrinedev' width=235/> <img src='https://github.com/NobertoFerreiraFilho/skateApp-flexbox-grid/blob/master/assets/img/Videos-page.jpg' width=260/> <img src='https://github.com/NobertoFerreiraFilho/skateApp-flexbox-grid/blob/master/assets/img/Picos-page.jpg' width=245/> 
 ## Detalhes do projeto
 
 ![](https://github.com/NobertoFerreiraFilho/skateApp-flexbox-grid/blob/master/assets/img/HZC-SkateApp_1__AdobeExpress.gif)
@@ -36,6 +36,7 @@ Doing this project allowed me to practice and understand even more how Flexbox a
  ### Extra features implemented beyond the Alura course scope for this activity
  <ul>
   <li>Small toggle menu by clicking Profile name on the top of the page. </li>
+  <li>Videos page linked with youtube (iframe) </li>
   </ul>
  
 ## Technics, Technologies and Dependences used:
