@@ -36,6 +36,7 @@ Doing this project allowed me to practice and understand even more how Flexbox a
  ### Extra features implemented beyond the Alura course scope for this activity
  <ul>
   <li>Small toggle menu by clicking Profile name on the top of the page. </li>
+  <li>Videos page linked with youtube (iframe) </li>
   </ul>
  
 ## Technics, Technologies and Dependences used:
