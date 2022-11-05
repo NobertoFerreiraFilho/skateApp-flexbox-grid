@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+    />
+    <link rel="stylesheet" href="/assets/css/reset.css" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+
+    <title>HZC | Home</title>
+  </head>
+  <body>
+    <header class="cabecalho">
+      <button class="cabecalho__menu" aria-label="Menu"><i></i></button>
+      <img
+        src="/assets/img/logo.svg"
+        alt="Logotipo da HZC"
+        class="cabecalho__logo"
+      />
+      <p class="cabecalho__perfil">Noberto Filho</p>
+      <div class="cabecalho-opcoes">
+        <a href="index.html" class="cabecalho-opcoes__link">Perfil</a>
+        <a href="#" class="cabecalho-opcoes__link">Sign In</a>
+        <a href="#" class="cabecalho-opcoes__link">Contact</a>
+      </div>
+      <button class="cabecalho__notificacao" aria-label="Notificação">
+        <i></i>
+      </button>
+    </header>
+    <nav class="menu-lateral">
+      <img
+        src="/assets/img/logo.svg"
+        alt="Logotipo da HZC"
+        class="menu-lateral__logo"
+      />
+      <a href="index.html" class="menu-lateral__link menu-lateral__link--inicio"
+        >Início</a
+      >
+      <a
+        href="#"
+        class="menu-lateral__link menu-lateral__link--videos menu-lateral__link--ativo"
+        >Vídeos</a
+      >
+      <a href="picos.html" class="menu-lateral__link menu-lateral__link--picos"
+        >Picos</a
+      >
+      <a href="#" class="menu-lateral__link menu-lateral__link--integrantes"
+        >Integrantes</a
+      >
+      <a href="#" class="menu-lateral__link menu-lateral__link--camisas"
+        >Camisas</a
+      >
+      <a href="#" class="menu-lateral__link menu-lateral__link--pinturas"
+        >Pinturas</a
+      >
+    </nav>
+    <main class="principal--videos">
+      <h1 class="titulo-pagina-videos">Skate Videos</h1>
+      <article class="cartao video-favorito">
+        <div class="cartao__conteudo cartao__conteudo-videos">
+          <h2 class="cartao__titulo">Top video 2022</h2>
+          <iframe
+            src="https://www.youtube.com/embed/ZmX-zIiixqM"
+            title="The Real Cost Skateboard Big Air: FULL BROADCAST | X Games Minneapolis 2019"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            class="cartao__video cartao__video--mobile"
+            allowfullscreen
+          ></iframe>
+          <h3 class="cartao__video-name">
+            The Real Cost Skateboard Big Air: FULL BROADCAST | X Games
+            Minneapolis 2019
+          </h3>
+          <p class="cartao__video-description">
+            Watch the FULL BROADCAST of the entire Skateboard Big Air final that
+            just went down LIVE at X Games Minneapolis 2019.
+          </p>
+        </div>
+      </article>
+      <article class="cartao videos-favoritos">
+        <h3 class="cartao__titulo">Last Videos</h3>
+        <a href="#" class="cartao__link">Ver Todos</a>
+        <ul class="cartao__lista-videos">
+          <li class="cartao__item">
+            <a
+              href="https://www.youtube.com/embed/rfXROiJUwzE"
+              class="cartao__item-video"
+              target="_blank"
+            >
+              <img
+                src="https://streets.mn/wp-content/uploads/2013/01/800px-BurnsideSkatePark.jpg"
+                alt="Burnside lane miniature photo"
+                class="cartao__item-thumbnail-videos"
+              />
+              <h4 class="cartao__item-titulo">HZC - Burnside, USA</h4>
+              <p class="cartao__item-perfil">Noberto Filho</p>
+            </a>
+          </li>
+          <li class="cartao__item">
+            <a
+              href="https://www.youtube.com/embed/Ls61fy4gF0c"
+              class="cartao__item-video"
+              target="_blank"
+            >
+              <img
+                src="https://www.skateparks.co.uk/wp-content/uploads/2014/07/cover9.jpg"
+                alt="Southbank lane miniature photo"
+                class="cartao__item-thumbnail-videos"
+              />
+              <h4 class="cartao__item-titulo">HZC - Southbank</h4>
+              <p class="cartao__item-perfil">Noberto Filho</p>
+            </a>
+          </li>
+          <li class="cartao__item">
+            <a
+              href="https://www.youtube.com/embed/b0RjFPdtUfI"
+              class="cartao__item-video"
+              target="_blank"
+            >
+              <img
+                src="https://i.pinimg.com/564x/17/6a/c3/176ac38a8844117af357bb6cbbede6e5.jpg"
+                alt="Big O, Montreal lane miniature photo"
+                class="cartao__item-thumbnail-videos"
+              />
+              <h4 class="cartao__item-titulo">HZC - Big O, Montreal</h4>
+              <p class="cartao__item-perfil">Noberto Filho</p>
+            </a>
+          </li>
+          <li class="cartao__item">
+            <a
+              href="https://www.youtube.com/embed/9bvZczBol5s"
+              class="cartao__item-video"
+              target="_blank"
+            >
+              <img
+                src="https://blog.skateboard.com.au/images/redribbon1.jpg"
+                alt="Red Ribbon Guangzhou lane miniature photo"
+                class="cartao__item-thumbnail-videos"
+              />
+              <h4 class="cartao__item-titulo">HZC -Red Ribbon</h4>
+              <p class="cartao__item-perfil">Noberto Filho</p>
+            </a>
+          </li>
+        </ul>
+      </article>
+    </main>
+    <script src="/index.js"></script>
+  </body>
+</html>
