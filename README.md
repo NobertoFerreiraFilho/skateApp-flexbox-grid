@@ -17,7 +17,7 @@ Project developed as part of the Alura course "CSS: dispondo elementos com Flexb
 </p>
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-<img src='https://github.com/NobertoFerreiraFilho/skateApp-flexbox-grid/blob/master/assets/img/home-page.jpg#vitrinedev' width=300/> <img src='https://github.com/NobertoFerreiraFilho/skateApp-flexbox-grid/blob/master/assets/img/Picos-page.jpg' width=315/>
+<img src='https://github.com/NobertoFerreiraFilho/skateApp-flexbox-grid/blob/master/assets/img/home-page.jpg#vitrinedev' width=265/> <img src='https://github.com/NobertoFerreiraFilho/skateApp-flexbox-grid/blob/master/assets/img/Picos-page.jpg' width=275/> <img src='https://github.com/NobertoFerreiraFilho/skateApp-flexbox-grid/blob/master/assets/img/Videos-page.jpg' width=295/> 
 ## Detalhes do projeto
 
 ![](https://github.com/NobertoFerreiraFilho/skateApp-flexbox-grid/blob/master/assets/img/HZC-SkateApp_1__AdobeExpress.gif)
